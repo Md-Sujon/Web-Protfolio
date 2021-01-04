@@ -5,20 +5,25 @@ body{
 h1{
     font-size: 50px;
 }
+h2{
+    font-size: 45px;
+}
 .name-highlight{
     color: orange;
 }
 .half-width{
-    width: 40%;
+    width: 35%;
    float: left;
-    margin:5%;
+   margin: 5%;
+
 }
+
 .half-width img{
-    width: 70%;
-  margin-top: 0px;
-  float: left;
-   
+    width: 80%; 
+    margin-left: 10%;
+     
 }
+
 .top-banner{
   background-image: url(top-banner.png);
   background-repeat: no-repeat;
@@ -36,11 +41,54 @@ section{
     font-weight: 700;
     
 }
-.half-width{
-    width: 40%;
+
+#sujon{
+    margin-top: 5%;
+    
 }
 
+.drean-area{
+    background-image: url(dream-bg.png);
+   background-position:right;
+   background-repeat: no-repeat;
+margin-top: 200px   ;
+     
+}
 
+.kuk{
+    width: 40%;
+    float: left;
+    padding: 20px;
+    margin-left: 70px;
+       border-radius: 10px;  
+       box-shadow: 5px 5px 40px rgb(41, 49, 49);
+       background-color: white;
+}
+.Experiance-area{
+    background-image: url(exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    width: 100%;
+}
+
+#Experiance{
+    margin-top: 5%;
+    position: relative;
+}
+#full-stack{
+    border-left: 7px solid;
+    border-image:linear-gradient(180deg, lightsalmon, tomato);
+    border-image-slice: 1;
+    
+}
+#Baby{
+    border-left: 7px solid ;
+    border-image:linear-gradient(180deg, blue, cyan);
+    border-image-slice:1;  
+}
+.footer{
+    text-align: center;
+}
 
 
 
